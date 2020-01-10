@@ -3004,11 +3004,11 @@ input[type="button"]:disabled,
 	}
 
 	#skills .skills-table-one {
-		flex: 1 55%;
+		flex: 1 50%;
 	}
 
 	#skills .skills-table-two {
-		flex: 2 45%;
+		flex: 2 50%;
 	}
 
 	#skills .skills-table-one table td {
