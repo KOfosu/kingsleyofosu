@@ -3537,11 +3537,6 @@ input[type="button"]:disabled,
 	padding-bottom: 10px;
 }
 
-.download {
-	color: goldenrod;
-	font-weight: bolder;
-}
-
 #portfolio .web {
 	width: 100%;
 }
