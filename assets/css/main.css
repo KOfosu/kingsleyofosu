@@ -3553,3 +3553,14 @@ input[type="button"]:disabled,
 #portfolio .inner p {
 	text-align: justify;
 }
+
+
+*:focus {
+	outline: 0;
+	box-shadow: 0 0 10px gold;
+	border:  gold;
+}
+
+a:focus {
+	font-weight: bolder;
+}
