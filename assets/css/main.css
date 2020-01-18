@@ -3546,13 +3546,13 @@ input[type="button"]:disabled,
 	width: 100%;
 }
 
-
+/* 
 #about p {
 	text-align: justify;
 }
 #portfolio .inner p {
 	text-align: justify;
-}
+} */
 
 
 *:focus {
