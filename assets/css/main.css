@@ -3020,14 +3020,14 @@ input[type="button"]:disabled,
 }
 
 #skills .skills-table-one table tr td:nth-child(1) {
-	width: 15rem;
+	width: 13rem;
 }
 
 #skills .skills-table-two table {
 	margin: 0;
 }
 #skills .skills-table-two table tr td:nth-child(1) {
-	width: 15rem;
+	width: 13rem;
 }
 
 #skills table tbody tr {
