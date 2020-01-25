@@ -3019,8 +3019,15 @@ input[type="button"]:disabled,
 	margin: 0;
 }
 
+#skills .skills-table-one table tr td:nth-child(2) {
+	width: 100px;
+}
+
 #skills .skills-table-two table {
 	margin: 0;
+}
+#skills .skills-table-two table tr td:nth-child(2) {
+	width: 100px;
 }
 
 #skills table tbody tr {
