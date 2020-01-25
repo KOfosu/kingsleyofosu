@@ -2550,7 +2550,7 @@ ul.icons li .icon:before {
 
 /* Table */
 
-.table-wrapper {
+/* .table-wrapper {
 	-webkit-overflow-scrolling: touch;
 	overflow-x: auto;
 }
@@ -2614,7 +2614,7 @@ table.alt thead {
 
 table.alt tfoot {
 	border-top: 0;
-}
+} */
 
 /* Button */
 
@@ -3003,31 +3003,29 @@ input[type="button"]:disabled,
 }
 
 #skills .skills-table-one {
-	flex: 1 55%;
+	flex: 1 50%;
 }
 
 #skills .skills-table-two {
-	flex: 2 45%;
+	flex: 2 50%;
 }
-
-#skills .skills-table-one table td {
-	padding-left: 0;
-}
-
 
 #skills table {
 	margin: 0 auto;
 	background: white;
 }
 
+#skills .skills-table-one table {
+	margin: 0;
+}
+
+#skills .skills-table-two table {
+	margin: 0;
+}
+
 #skills table tbody tr {
 	border-top: none;
 	border-bottom: none;
-}
-
-
-.fas {
-	color: goldenrod;
 }
 
 #skills table tr td {
@@ -3047,6 +3045,11 @@ input[type="button"]:disabled,
 	padding-bottom: 10px;
 	padding-right: 0;
 	padding-left: 0;
+}
+
+
+.fas {
+	color: goldenrod;
 }
 
 .download {
@@ -3083,27 +3086,6 @@ a:focus {
 /* XLarge */
 
 @media screen and (max-width: 1680px) {
-
-	/* Skills Table */
-	#skills .skills-list {
-		display: flex;
-		flex-direction: row;
-	}
-
-	#skills .skills-table-one {
-		flex: 1 55%;
-	}
-
-	#skills .skills-table-two {
-		flex: 2 45%;
-	}
-
-	#skills .skills-table-one table td {
-		padding-left: 0;
-	}
-
-
-
 	/* Basic */
 
 	body,
@@ -3144,25 +3126,6 @@ a:focus {
 /* Large */
 
 @media screen and (max-width: 1280px) {
-
-	/* Skills Table */
-	#skills .skills-list {
-		display: flex;
-		flex-direction: row;
-	}
-
-	#skills .skills-table-one {
-		flex: 1 55%;
-	}
-
-	#skills .skills-table-two {
-		flex: 2 45%;
-	}
-
-	#skills .skills-table-one table td {
-		padding-left: 0;
-	}
-
 	/* Basic */
 
 	body,
@@ -3193,25 +3156,6 @@ a:focus {
 }
 
 @media screen and (max-width: 1024px) {
-	/* Skills Table */
-	#skills .skills-list {
-		display: flex;
-		flex-direction: row;
-	}
-
-	#skills .skills-table-one {
-		flex: 1 55%;
-	}
-
-	#skills .skills-table-two {
-		flex: 2 45%;
-	}
-
-	#skills .skills-table-one table td {
-		padding-left: 0;
-	}
-
-
 	/* Basic */
 
 	html,
@@ -3402,13 +3346,13 @@ a:focus {
 		flex: 2 100%;
 	}
 
-	#skills .skills-table-one table td {
+	/* #skills .skills-table-one table td {
 		padding-left: 0;
 	}
 
 	#skills .skills-list .skills-table-two table td {
 		padding-left: 0;
-	}
+	} */
 
 	/* Basic */
 
