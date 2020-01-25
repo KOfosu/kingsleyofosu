@@ -3517,7 +3517,7 @@ input[type="button"]:disabled,
 	border-bottom: none;
 }
 
-#skills table tr td:nth-child(2) {
+#skills table tr td:nth-child(2) span {
 	color: goldenrod;
 }
 
