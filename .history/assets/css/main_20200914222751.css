@@ -2303,8 +2303,7 @@ input[type="radio"]+label:before {
 .image.avatar img {
 	border-radius: 100%;
 	display: block;
-	width: 100%;
-	height: 140px;
+	width: 120%;
 }
 
 .image.main {
